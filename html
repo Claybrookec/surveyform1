@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>Netflix Survey Form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+    <body>
+      <h1 id="title">Netflix Survey Form</h1>
+      <p id="description">Thank you for taking the time to explain your binging habits</p>
+        <form id="survey-form">
+          <label id="name-label">Name:</label><input placeholder="Tim Dillion" id="name" type="text" required>
+          <label id="email-label">Email:</label><input placeholder="example123@gmail.com" id="email" type="email" required>
+          <label id="number-label">Number of Shows You Have Binged Watched in Less Than 3 Days:</label><input placeholder="4" id="number"type="number" min="0" max="400">
+          <label>Who is the Best Comedian on Netfilx</label><select id="dropdown">
+            <option value="">(select one)</option>
+            <option value="1">Ali Wong</option>
+            <option value="2">Tim Dillion</option>
+            <option value="3">Bert Kreischer</option>
+            <option value="4">Tom Segura</option>
+            <option value="5">Dave Chappelle</option>
+            <option value="6">Bill Burr</option>
+          </select>
+          <br>
+          <br>
+      <label for="new-user">New user</label><input id="new-user" type="radio" name="user" class="inline" value="new-user"></input>
+
+      <label for "old-user">Old user</label><input id="old-user" type="radio" name="user" class="inline" value="old-user">
+
+<label for="checkbox">I would like to get updates about new shows</label><input type="checkbox" id="checkbox" value="checkbox"></input>
+
+<label for="checkbox">I would like Netflix to track my data to make personalized recommendations</label><input type="checkbox" id="checkbox" value="checkbox"></input>
+     
+<label>Any other feedback?</label><textarea></textarea>
+      
+<input type="submit" id="submit"></input>
+        </form>
+    </body>
+</html>
